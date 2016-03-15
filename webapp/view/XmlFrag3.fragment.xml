@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+        xmlns="sap.ui.commons"
+        xmlns:core="sap.ui.core">
+    
+    <TextField  />
+
+    <TextField id="myField"/>
+   
+    <Button text="Button on XML Fragment"
+            press="onButtonPress"/>
+            
+</core:FragmentDefinition>
+
+

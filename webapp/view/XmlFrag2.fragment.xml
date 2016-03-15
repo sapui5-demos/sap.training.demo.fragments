@@ -1,0 +1,4 @@
+<HorizontalLayout xmlns="sap.ui.layout">
+	<TextField xmlns="sap.ui.commons" width="400px"/>
+	<TextField id="myField" xmlns="sap.ui.commons" width="400px"/>
+</HorizontalLayout>

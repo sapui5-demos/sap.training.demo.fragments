@@ -1,0 +1,3 @@
+<Button xmlns="sap.ui.commons"
+		press="onButtonPress"
+		text="Button on XML Fragment" />

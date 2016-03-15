@@ -1,0 +1,8 @@
+<Dialog title="XML Fragment Dialog" xmlns="sap.ui.commons">
+	<buttons>
+		<Button press="onCloseDialog" text="Close"/>
+	</buttons>
+	<content>
+		<TextField id="myField" xmlns="sap.ui.commons"/>
+	</content>
+</Dialog>
