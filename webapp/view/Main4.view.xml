@@ -1,7 +1,8 @@
-<mvc:View controllerName="sap.training.controller.Main4" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+<mvc:View controllerName="sap.training.controller.Main4" xmlns:core="sap.ui.core"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 	
-	<core:Fragment fragmentName="sap.training.view.XmlFrag2" id="myFrag" type="XML"/>
-	<core:Fragment fragmentName="sap.training.view.XmlFrag2" type="XML"/>
-		
+	<core:Fragment id="idFrag" fragmentName="sap.training.view.XmlFrag2" type="XML"/>
+	
+	<core:Fragment             fragmentName="sap.training.view.XmlFrag2" type="XML"/>
+	
 </mvc:View>
