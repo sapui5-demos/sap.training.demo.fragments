@@ -1,3 +1,6 @@
-<Button xmlns="sap.m"
-		press="onButtonPress"
-		text="Button on XML Fragment" />
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	
+	<Button press="onButtonPress"
+			text="Button on XML Fragment" />
+		
+</core:FragmentDefinition>
