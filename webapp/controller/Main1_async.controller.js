@@ -5,7 +5,7 @@ sap.ui.define([
 ], function (Controller, Device, MessageBox) {
 	"use strict";
 
-	return Controller.extend("sap.training.controller.Main1", {
+	return Controller.extend("sap.training.controller.Main1_async", {
 
 		onInit: function () {
 			// apply compact density if touch is not supported, the standard cozy design otherwise

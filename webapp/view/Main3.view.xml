@@ -7,7 +7,7 @@
 	
 	<l:HorizontalLayout>
 		<l:content>
-			<core:Fragment fragmentName="sap.training.view.XmlFrag1" type="XML"/>
+			<core:Fragment fragmentName="sap.training.view.XmlFrag1" type="XML" />
 			
 			<core:Fragment fragmentName="sap.training.view.HtmlFrag" type="HTML"/>
 			

@@ -1,19 +1,14 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	"sap/ui/Device",
-	"sap/m/MessageBox"
-], function (Controller, Device, MessageBox) {
+	"sap/ui/Device"
+], function (Controller, Device) {
 	"use strict";
 
-	return Controller.extend("sap.training.controller.Main1", {
+	return Controller.extend("sap.training.controller.Main2_async", {
 
 		onInit: function () {
 			// apply compact density if touch is not supported, the standard cozy design otherwise
 			this.getView().addStyleClass(Device.support.touch ? "sapUiSizeCozy" : "sapUiSizeCompact");
-		},
-
-		onButtonPress: function () {
-			MessageBox.show("Button pressed");
 		}
 
 	});

@@ -1,15 +1,21 @@
 sap.ui.jsview("sap.training.view.Main2", {
 
-	getControllerName: function() {
+	getControllerName: function () {
 		return "sap.training.controller.Main2";
 	},
 
-	createContent: function(oController) {
+	createContent: function (oController) {
 
 		var oMyController = {
-			onButtonPress: function(oEvent) {
-				alert("Handler in Custom Controller Object invoked");
+
+			onButtonPress: function (oEvent) {
+
+				sap.ui.require(["sap/m/MessageBox"], function (MessageBox) {
+					MessageBox.show("Handler in Custom Controller Object invoked");
+				});
+
 			}
+
 		};
 
 		var oHtmlFragButton = sap.ui.htmlfragment("sap.training.view.HtmlFrag", oMyController);
