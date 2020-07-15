@@ -8,9 +8,9 @@
 		<title>Demo Fragments</title>
 
 		<script id="sap-ui-bootstrap"
-			src="../../resources/sap-ui-core.js"
+			src="resources/sap-ui-core.js"
 			data-sap-ui-libs="sap.m, sap.ui.layout"
-			data-sap-ui-theme="sap_belize"
+			data-sap-ui-theme="sap_fiori_3"
 			data-sap-ui-compatVersion="edge"
 			data-sap-ui-resourceroots='{"sap.training": ""}'
 			data-sap-ui-async="true">
@@ -23,8 +23,8 @@
 			
 				sap.ui.require(["sap/ui/core/mvc/View"], function(View) {
 					View.create({
-								  id: "idMain",
-							viewName: "sap.training.view.Main1",
+								  id: "idView",
+							viewName: "sap.training.view.Main1_async",
 								type: sap.ui.core.mvc.ViewType.JS
 						}).then(function(oView) {
 							oView.placeAt("content");

@@ -7,11 +7,11 @@ sap.ui.jsview("sap.training.view.Main2_async", {
 	createContent: function (oController) {
 
 		var oMyController = {
-			
+
 			onButtonPress: function (oEvent) {
 
 				sap.ui.require(["sap/m/MessageBox"], function (MessageBox) {
-					MessageBox.show("Handler in Custom Controller Object invoked");
+					MessageBox.success("Handler in Custom Controller Object invoked");
 				});
 
 			}
